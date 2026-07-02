@@ -54,7 +54,6 @@ public:
         n = n1 * m1;
         
         int res = dijkstr();
-        cout << res << endl;
         return res != -1 && res < health;
     }
 };
